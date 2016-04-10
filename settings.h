@@ -8,4 +8,19 @@
 #define PIN_WIRE_SCL 19
 
 
+#define RC_MIN_SIGNAL 1100
+#define RC_MID_SIGNAL 1500
+#define RC_MAX_SIGNAL 1900
+
+#define ACCEL_MAX 1.4
+
+#define GYRO_FILTER_RC 0.1f
+#define ACCEL_FILTER_RC 0.1f
+#define ACCEL_CORRECTION_RC 1.0f
+
+#define CALIBRATION_SAMPLES 10
+#define CALIBRATION_INTERVAL 100
+
+#define STABILIZE_FACTOR 3.0f;
+
 #endif

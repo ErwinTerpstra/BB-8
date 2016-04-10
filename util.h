@@ -47,6 +47,11 @@ public:
 		return fabs(a) * Sign(b);
 	}
 
+	static int32_t FloatToInt(const float& f, uint8_t precision)
+	{
+		return (int32_t) (f * pow(10, precision));
+	}
+
 	template<typename T>
 	static const T& Clamp(const T& x, const T& min, const T& max)
 	{

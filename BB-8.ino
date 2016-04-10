@@ -2,41 +2,62 @@
 
 #include "i2c.h"
 
+#include "imu.h"
 #include "receiver.h"
 #include "motors.h"
 
 using namespace bb8;
 
 uint32_t debugTimer = 0;
+uint32_t frameTime = 0;
 
 void setup()
 {
-	Serial.begin(9600);
+	Serial.begin(115200);
 
 	I2C::Setup();
 
+	InitIMU();
 	InitReceiver();
 	InitMotors();
+
+	frameTime = micros();
 }
 
 void loop()
 {
+	uint32_t time = micros();
+	uint32_t dt = time - frameTime;
+
+	UpdateIMU(dt);
+
 	UpdateReceiver();
 	UpdateMotors();
+	
+	ReceiverData& receiverData = GetReceiverData();
+	Vector2 direction(-receiverData.GetNormalizedChannel(AILERON), receiverData.GetNormalizedChannel(ELEVATOR));
 
-	uint32_t time = micros();
+	bool stabilize = receiverData.GetNormalizedChannel(AUX1) > 0.0f;
 
-	if (time - debugTimer > 500)
+	if (stabilize)
 	{
-		ReceiverData& receiverData = GetReceiverData();
-		Vector2 direction(-receiverData.GetNormalizedChannel(AILERON), receiverData.GetNormalizedChannel(ELEVATOR));
+		const Quaternion& orientation = GetCurrentOrientation();
 
-		if (direction.LengthSq() > 1.0)
-			direction.Normalize();
+		float yaw, pitch, roll;
+		orientation.ToEulerAngles(yaw, pitch, roll);
 
-		SetDirection(direction);
+		direction.x += (roll / 90.0f) * STABILIZE_FACTOR;
+		direction.y += (pitch / 90.0f) * STABILIZE_FACTOR;
+	}
 
-		Debug::Print("%d;%d\n", (int) (direction.x * 100), (int) (direction.y * 100));
+	if (direction.LengthSq() > 1.0)
+		direction.Normalize();
+
+	SetDirection(direction);
+
+	if (time - debugTimer > 500000)
+	{
+		PrintMotorData();
 
 		debugTimer = time;
 	}

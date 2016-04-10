@@ -11,6 +11,9 @@ namespace bb8
 		AILERON,
 		RUDDER,
 
+		AUX1,
+		AUX2,
+
 		NUM_CHANNELS,
 	};
 
@@ -25,6 +28,7 @@ namespace bb8
 
 	void InitReceiver();
 	void UpdateReceiver();
+	void PrintChannels();
 	
 	ReceiverData& GetReceiverData();
 

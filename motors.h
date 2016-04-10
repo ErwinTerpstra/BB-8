@@ -14,10 +14,19 @@ namespace bb8
 		bool invert;
 
 		Vector2 direction;
+
+		float currentPower;
+
+		void SetAngle(float angle)
+		{
+			direction.x = cos(angle * DEG_2_RAD);
+			direction.y = sin(angle * DEG_2_RAD);
+		}
 	};
 
 	void InitMotors();
 	void UpdateMotors();
+	void PrintMotorData();
 
 	void SetDirection(const Vector2& direction);
 

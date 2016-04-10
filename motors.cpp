@@ -14,7 +14,8 @@ void bb8::InitMotors()
 		motor.pinForward		= 17;
 		motor.pinReverse		= 16;
 		motor.invert 			= true;
-		motor.direction 		= Vector2(0.000f, 1.000f);
+		
+		motor.SetAngle(90.0f);
 	}
 	
 	{
@@ -24,7 +25,8 @@ void bb8::InitMotors()
 		motor.pinForward		= 15;
 		motor.pinReverse		= 14;
 		motor.invert 			= false;
-		motor.direction 		= Vector2(-0.866f, -0.500f);
+
+		motor.SetAngle(210.0f);
 	}
 
 	{
@@ -34,7 +36,8 @@ void bb8::InitMotors()
 		motor.pinForward		= 4;
 		motor.pinReverse		= 3;
 		motor.invert 			= true;
-		motor.direction 		= Vector2(0.866f, -0.500f);
+		
+		motor.SetAngle(330.0f);
 	}
 
 	for (uint8_t motorIdx = 0; motorIdx < NUM_MOTORS; ++motorIdx)
@@ -52,14 +55,28 @@ void bb8::UpdateMotors()
 	
 }
 
+void bb8::PrintMotorData()
+{
+	Debug::Print("%ld; %ld; %ld\n", 
+		Util::FloatToInt(motors[0].currentPower, 2), 
+		Util::FloatToInt(motors[1].currentPower, 2),
+		Util::FloatToInt(motors[2].currentPower, 2));
+}
+
 void bb8::SetDirection(const Vector2& direction)
 {
 	for (uint8_t motorIdx = 0; motorIdx < NUM_MOTORS; ++motorIdx)
 	{
 		Motor& motor = motors[motorIdx];
 
-		float power = Vector2::Dot(motor.direction, direction);
-		uint8_t forward = power > 0.0f;
+		motor.currentPower = Vector2::Dot(motor.direction, direction);
+	}
+
+	for (uint8_t motorIdx = 0; motorIdx < NUM_MOTORS; ++motorIdx)
+	{
+		Motor& motor = motors[motorIdx];
+
+		uint8_t forward = motor.currentPower > 0.0f;
 
 		if (motor.invert)
 			forward = 1 - forward;
@@ -67,10 +84,8 @@ void bb8::SetDirection(const Vector2& direction)
 		digitalWrite(motor.pinForward, forward);
 		digitalWrite(motor.pinReverse, 1 - forward);
 
-		uint16_t pwm = (uint16_t) (fabs(power) * 255);
+		uint8_t pwm = (uint8_t) (fabs(motor.currentPower) * 255);
 		analogWrite(motor.pinPWM, pwm);
-
-		//Debug::Print("%u: %u\n", motorIdx, pwm);
 	}
 
 }
