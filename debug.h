@@ -11,19 +11,26 @@ namespace bb8
 class Debug
 {
 public:
-	static const uint32_t MAX_DEBUG_PRINT_LENGTH = 512;
+	static const uint16_t PRINT_BUFFER_SIZE = 256;
+	static const uint16_t FLASH_BUFFER_SIZE = 128;
 
 private:
-	char buffer[MAX_DEBUG_PRINT_LENGTH];
+	char printBuffer[PRINT_BUFFER_SIZE];
+
+	char flashBuffer[FLASH_BUFFER_SIZE];
 
 	Debug();
 	
 public:
 	void Print(const char* msg, va_list args);
 
+	void Print(const __FlashStringHelper* msg, va_list args);
+
 public:
 
 	static void Print(const char* msg, ...);
+
+	static void Print(const __FlashStringHelper* msg, ...);
 
 	static bool AssertHandler(const char* code, const char* file, const uint32_t line);
 

@@ -4,11 +4,11 @@
 #include "receiver.h"
 
 using namespace bb8;
+using namespace bb8::receiver;
 
+ReceiverData receiverData;
 
-static ReceiverData receiverData;
-
-void bb8::InitReceiver()
+void bb8::receiver::InitReceiver()
 {
 	CPPM.begin();
 
@@ -20,7 +20,7 @@ void bb8::InitReceiver()
 	receiverData.SetChannel(AUX2, 		1000);
 }
 
-void bb8::UpdateReceiver()
+void bb8::receiver::UpdateReceiver()
 {
 	CPPM.cycle();
 
@@ -35,16 +35,16 @@ void bb8::UpdateReceiver()
 	}
 }
 
-void bb8::PrintChannels()
+void bb8::receiver::PrintChannels()
 {
-	Debug::Print("Channels: \n");
-	Debug::Print("%ld; %ld; %ld; %ld; %ld; %ld\n", 
+	Debug::Print(F("Channels: \n"));
+	Debug::Print(F("%ld; %ld; %ld; %ld; %ld; %ld\n"), 
 		Util::FloatToInt(receiverData.GetNormalizedChannel(THROTTLE), 4), Util::FloatToInt(receiverData.GetNormalizedChannel(AILERON), 4),
 		Util::FloatToInt(receiverData.GetNormalizedChannel(ELEVATOR), 4), Util::FloatToInt(receiverData.GetNormalizedChannel(RUDDER), 4),
 		Util::FloatToInt(receiverData.GetNormalizedChannel(AUX1), 4), Util::FloatToInt(receiverData.GetNormalizedChannel(AUX2), 4));
 }
 
-ReceiverData& bb8::GetReceiverData()
+ReceiverData& bb8::receiver::GetReceiverData()
 {
 	return receiverData;
 }
@@ -56,7 +56,7 @@ void ReceiverData::SetChannel(Channels channel, uint16_t pulse)
 
 float ReceiverData::GetNormalizedChannel(Channels channel)
 {
-	uint16_t pulseLength = this->channels[(uint8_t) channel];
+	uint16_t pulseLength = Util::Clamp(this->channels[(uint8_t) channel], RC_MIN_SIGNAL, RC_MAX_SIGNAL);
 
 	if (pulseLength < RC_MID_SIGNAL)
 		return -((RC_MID_SIGNAL - pulseLength) / (float) (RC_MID_SIGNAL - RC_MIN_SIGNAL));

@@ -6,6 +6,9 @@
 namespace bb8
 {
 
+namespace imu
+{
+
 	void InitIMU();
 	void UpdateIMU(uint32_t dt);
 	void PrintOrientation();
@@ -27,7 +30,8 @@ namespace bb8
 	}
 
 	const Quaternion& GetCurrentOrientation();
-
+	
+}
 
 }
 

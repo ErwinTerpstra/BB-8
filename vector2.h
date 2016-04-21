@@ -30,7 +30,7 @@ struct Vector2
 	{
 		float length = Length();
 
-		assert(length > 0.0f && "Zero vector can't be normalized!");
+		assert(length > 0.0f && F("Zero vector can't be normalized!"));
 
 		float recipLength = 1.0f / length;
 		x *= recipLength;

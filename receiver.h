@@ -4,6 +4,9 @@
 namespace bb8
 {
 
+namespace receiver
+{
+
 	enum Channels
 	{
 		THROTTLE,
@@ -31,6 +34,7 @@ namespace bb8
 	void PrintChannels();
 	
 	ReceiverData& GetReceiverData();
+}
 
 }
 

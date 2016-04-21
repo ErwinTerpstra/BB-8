@@ -6,6 +6,7 @@
 #include "mpu6050.h"
 
 using namespace bb8;
+using namespace bb8::imu;
 
 
 MPU6050Data mpuData;
@@ -21,13 +22,13 @@ Vector3 angularVelocity, acceleration;
 //Filter<Vector3> accelerationFilter(Filter<Vector3>::HIGH_PASS, ACCEL_FILTER_RC);
 //Filter<Vector3> angularVelocityFilter(Filter<Vector3>::LOW_PASS, GYRO_FILTER_RC);
 
-void bb8::InitIMU()
+void bb8::imu::InitIMU()
 {
 	SetupMPU();
 	Calibrate();
 }
 
-void bb8::UpdateIMU(uint32_t dt)
+void bb8::imu::UpdateIMU(uint32_t dt)
 {
 	// Read new values from i2c
 	ReadMPU();
@@ -50,18 +51,18 @@ void bb8::UpdateIMU(uint32_t dt)
 }
 
 
-void bb8::PrintOrientation()
+void bb8::imu::PrintOrientation()
 {
 	float yaw, pitch, roll;
 
 	orientation.ToEulerAngles(yaw, pitch, roll);
-	Debug::Print("Orientation:\n");
-	Debug::Print("Yaw = %d; Pitch = %d; Roll = %d\n", 
+	Debug::Print(F("Orientation:\n"));
+	Debug::Print(F("Yaw = %d; Pitch = %d; Roll = %d\n"), 
 		(int16_t) yaw, (int16_t) pitch, (int16_t) roll);
 
-	Debug::Print("\n");
+	Debug::Print(F("\n"));
 
-	Debug::Print("Acceleration: %ld;%ld;%ld;\tLength:%ld\n", 
+	Debug::Print(F("Acceleration: %ld;%ld;%ld;\tLength:%ld\n"), 
 		Util::FloatToInt(acceleration.x, 4), Util::FloatToInt(acceleration.y, 4), Util::FloatToInt(acceleration.z, 4), 
 		Util::FloatToInt(acceleration.Length(), 4));
 
@@ -73,9 +74,9 @@ void bb8::PrintOrientation()
 }
 
 
-void bb8::Calibrate()
+void bb8::imu::Calibrate()
 {
-	Debug::Print("Calibrating accelerometer with %d samples\n", CALIBRATION_SAMPLES);
+	Debug::Print(F("Calibrating accelerometer with %d samples\n"), CALIBRATION_SAMPLES);
 
 	float scale = 0.0f;
 	Vector3 averageGyro = Vector3::Zero();
@@ -101,8 +102,8 @@ void bb8::Calibrate()
 		delay(CALIBRATION_INTERVAL);
 	}
 
-	Debug::Print("Accelerometer calibrated at %ld\n", Util::FloatToInt(scale, 4));
-	Debug::Print("Gyroscope offset calibrated at: %ld;%ld;%ld\n", 
+	Debug::Print(F("Accelerometer calibrated at %ld\n"), Util::FloatToInt(scale, 4));
+	Debug::Print(F("Gyroscope offset calibrated at: %ld;%ld;%ld\n"), 
 		Util::FloatToInt(averageGyro.x, 4), Util::FloatToInt(averageGyro.y, 4), Util::FloatToInt(averageGyro.z, 4));
 
 	// Apply calibration scale to the conversion scale
@@ -110,7 +111,7 @@ void bb8::Calibrate()
 	gyroOffset = averageGyro;
 }
 
-void bb8::SetupMPU()
+void bb8::imu::SetupMPU()
 {
 	// Default at MPU6050 settings at power-up:
 	//    Gyro at 250 degrees second
@@ -133,12 +134,12 @@ void bb8::SetupMPU()
 	I2C::WriteRegister(MPU6050_I2C_ADDRESS, MPU6050_PWR_MGMT_1, 0);
 }
 
-void bb8::ReadMPU()
+void bb8::imu::ReadMPU()
 {
 	uint8_t error = I2C::Read(MPU6050_I2C_ADDRESS, MPU6050_ACCEL_XOUT_H, (uint8_t*) &mpuData, sizeof(mpuData));
 
 	if (error != I2C::ERR_OK)
-		Debug::Print("I2C error while reading MPU: %ld\n", error);
+		Debug::Print(F("I2C error while reading MPU: %ld\n"), error);
 
 	// Correct endianness difference between uC and mpu data
 	Util::SwapEndianness((uint8_t*) &mpuData.accelX, sizeof(mpuData.accelX));
@@ -152,7 +153,7 @@ void bb8::ReadMPU()
 	Util::SwapEndianness((uint8_t*) &mpuData.gyroZ, sizeof(mpuData.gyroZ));
 }
 
-void bb8::ReadAcceleration(Vector3& acceleration)
+void bb8::imu::ReadAcceleration(Vector3& acceleration)
 {
 	// Convert accelerometer values to G normalized
 	acceleration.x = mpuData.accelX;
@@ -164,7 +165,7 @@ void bb8::ReadAcceleration(Vector3& acceleration)
 	ConvertVector(acceleration);
 }
 
-void bb8::ReadGyro(Vector3& angularVelocity)
+void bb8::imu::ReadGyro(Vector3& angularVelocity)
 {
 	angularVelocity.x = mpuData.gyroX;
 	angularVelocity.y = mpuData.gyroY;
@@ -176,4 +177,4 @@ void bb8::ReadGyro(Vector3& angularVelocity)
 	ConvertVector(angularVelocity);
 }
 
-const Quaternion& bb8::GetCurrentOrientation() { return orientation; }
+const Quaternion& bb8::imu::GetCurrentOrientation() { return orientation; }

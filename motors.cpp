@@ -1,11 +1,17 @@
+#include <SoftwareServo.h>
+
 #include "motors.h"
+#include "pid.h"
 
 using namespace bb8;
+using namespace bb8::actuators;
 
 const uint8_t NUM_MOTORS = 3;
 Motor motors[NUM_MOTORS];
 
-void bb8::InitMotors()
+SoftwareServo headServo;
+
+void bb8::actuators::InitMotors()
 {
 	{
 		// FORWARD
@@ -34,7 +40,7 @@ void bb8::InitMotors()
 		Motor& motor = motors[2];
 		motor.pinPWM			= 11;
 		motor.pinForward		= 4;
-		motor.pinReverse		= 3;
+		motor.pinReverse		= 2;
 		motor.invert 			= true;
 		
 		motor.SetAngle(330.0f);
@@ -48,22 +54,24 @@ void bb8::InitMotors()
 		pinMode(motor.pinForward, OUTPUT);
 		pinMode(motor.pinReverse, OUTPUT);
 	}
+
+	headServo.attach(PIN_HEAD_SERVO);
 }
 
-void bb8::UpdateMotors()
+void bb8::actuators::UpdateMotors(uint32_t dt)
 {
-	
+	SoftwareServo::refresh();
 }
 
-void bb8::PrintMotorData()
+void bb8::actuators::PrintMotorData()
 {
-	Debug::Print("%ld; %ld; %ld\n", 
+	Debug::Print(F("%ld; %ld; %ld\n"), 
 		Util::FloatToInt(motors[0].currentPower, 2), 
 		Util::FloatToInt(motors[1].currentPower, 2),
 		Util::FloatToInt(motors[2].currentPower, 2));
 }
 
-void bb8::SetDirection(const Vector2& direction)
+void bb8::actuators::SetDirection(const Vector2& direction)
 {
 	for (uint8_t motorIdx = 0; motorIdx < NUM_MOTORS; ++motorIdx)
 	{
@@ -88,4 +96,9 @@ void bb8::SetDirection(const Vector2& direction)
 		analogWrite(motor.pinPWM, pwm);
 	}
 
+}
+
+void bb8::actuators::SetHeadAngle(const float& angle)
+{
+	headServo.write((uint8_t) ((angle + 1.0f) * 90));
 }

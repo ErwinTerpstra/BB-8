@@ -1,0 +1,1493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"STABILIZE_",
+				"STABILIZE_SCALE"
+			],
+			[
+				"stabil",
+				"stabilizeTimer"
+			],
+			[
+				"stabi",
+				"stabilizeTimer"
+			],
+			[
+				"Sta",
+				"STABILIZE_KI"
+			],
+			[
+				"UpdateM",
+				"UpdateMotorsRelative"
+			],
+			[
+				"flight",
+				"FlightMode"
+			],
+			[
+				"One",
+				"OnEnter"
+			],
+			[
+				"AU",
+				"AUX1"
+			],
+			[
+				"MS_ACC",
+				"MS_ACCEL_FILTER_RC"
+			],
+			[
+				"acc",
+				"accelerationFilter"
+			],
+			[
+				"comm",
+				"Command"
+			],
+			[
+				"Comamn",
+				"CommandHandler"
+			],
+			[
+				"command",
+				"commandHandlers"
+			],
+			[
+				"ReadU",
+				"ReadUInt32"
+			],
+			[
+				"Deser",
+				"Deserialize"
+			],
+			[
+				"Seri",
+				"Serializable"
+			],
+			[
+				"Seria",
+				"SerializeResource"
+			],
+			[
+				"Ser",
+				"Serializable"
+			],
+			[
+				"Buff",
+				"bufferStream"
+			],
+			[
+				"ReadUInt",
+				"ReadUInt16"
+			],
+			[
+				"Seriali",
+				"SerializedSize"
+			],
+			[
+				"Sera",
+				"SerializedSize"
+			],
+			[
+				"uin",
+				"uint32_t"
+			],
+			[
+				"ui",
+				"uint16_t"
+			],
+			[
+				"resourceP",
+				"resourceProvider"
+			],
+			[
+				"acce",
+				"acceleration"
+			],
+			[
+				"resourcePr",
+				"resourceProviders"
+			],
+			[
+				"av",
+				"Available"
+			],
+			[
+				"Motor",
+				"MotorController"
+			],
+			[
+				"last",
+				"lastMessageID"
+			],
+			[
+				"req",
+				"requestMessage"
+			],
+			[
+				"payl",
+				"payload"
+			],
+			[
+				"Serila",
+				"Serializable"
+			],
+			[
+				"resou",
+				"resourceBuffer"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"resour",
+				"resources"
+			],
+			[
+				"Binary",
+				"BinaryWriteStream"
+			],
+			[
+				"Serialize",
+				"Serialize"
+			],
+			[
+				"Des",
+				"Deserializable"
+			],
+			[
+				"Binar",
+				"BinaryReadStream"
+			],
+			[
+				"num",
+				"numResources"
+			],
+			[
+				"Resource",
+				"resources"
+			],
+			[
+				"resourc",
+				"resourceIdx"
+			],
+			[
+				"pay",
+				"payload"
+			],
+			[
+				"response",
+				"responseMessage"
+			],
+			[
+				"head",
+				"headersRead"
+			],
+			[
+				"messages",
+				"messagesProcessed"
+			],
+			[
+				"Read",
+				"Read"
+			],
+			[
+				"Sync",
+				"SyncToStream"
+			],
+			[
+				"ReadMes",
+				"ReadMessageHeaders"
+			],
+			[
+				"ReadUin",
+				"ReadUInt32"
+			],
+			[
+				"readBuffe",
+				"readBufferStream"
+			],
+			[
+				"pro",
+				"ProcessMessages"
+			],
+			[
+				"readB",
+				"readBuffer"
+			],
+			[
+				"write",
+				"writeOffset"
+			],
+			[
+				"read",
+				"readOffset"
+			],
+			[
+				"MS",
+				"MS_ACCEL_CORRECTION_RC"
+			],
+			[
+				"NUM",
+				"NUM_COLORS"
+			],
+			[
+				"current",
+				"currentColor"
+			],
+			[
+				"MC",
+				"MC_PWM_MAX_DUTY_CYCLE"
+			],
+			[
+				"accel",
+				"accelOrientation"
+			],
+			[
+				"del",
+				"deltaSeconds"
+			],
+			[
+				"Pass",
+				"PassThroughFilter"
+			],
+			[
+				"preiv",
+				"previousFiltered"
+			],
+			[
+				"MS_",
+				"MS_CALIBRATION_SAMPLES"
+			],
+			[
+				"RX",
+				"RX_PWM_AMOUNT"
+			],
+			[
+				"MPU650",
+				"MPU6050_I2C_ADDRESS"
+			],
+			[
+				"Ar",
+				"Adafruit_NeoPixel"
+			],
+			[
+				"byte",
+				"bytesRead"
+			],
+			[
+				"INT",
+				"INT16_MAX"
+			],
+			[
+				"int",
+				"int16_t"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"dia",
+				"disableControls"
+			],
+			[
+				"disable",
+				"disableControls"
+			],
+			[
+				"finishW",
+				"finishWrapPage"
+			],
+			[
+				"Marktpl",
+				"Marktplaatsinator"
+			],
+			[
+				"freq",
+				"frequency"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bb8.h",
+			"settings":
+			{
+				"buffer_size": 213,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "settings.h",
+			"settings":
+			{
+				"buffer_size": 620,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "BB-8.ino",
+			"settings":
+			{
+				"buffer_size": 1967,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "debug.h",
+			"settings":
+			{
+				"buffer_size": 889,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "util.h",
+			"settings":
+			{
+				"buffer_size": 980,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "receiver.h",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Erwin/Documents/Projecten/Arduino/libraries/SoftwareServo/SoftwareServo.h",
+			"settings":
+			{
+				"buffer_size": 1181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "motors.cpp",
+			"settings":
+			{
+				"buffer_size": 2056,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "receiver.cpp",
+			"settings":
+			{
+				"buffer_size": 2048,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pid.h",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Windows",
+				"name": "#ifndef _PID_H_"
+			}
+		},
+		{
+			"file": "debug.cpp",
+			"settings":
+			{
+				"buffer_size": 1061,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Erwin/Documents/Projecten/Arduino/libraries/CPPM/CPPM.h",
+			"settings":
+			{
+				"buffer_size": 7411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "motors.h",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8"
+	],
+	"file_history":
+	[
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8/quaternion.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8/vector3.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8/vector2.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8/imu.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8/imu.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/BB-8/debug.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/CPPM/CPPM.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/config.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/config.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/flight_modes.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/Bothezat.ino",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/aux_functions.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/util.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/motor_controller.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/stick_commands.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/motor_controller.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/flight_system.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/aux_functions.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/stick_commands.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/i2c.h",
+		"/D/Games/SteamLibrary/steamapps/common/The Witness/data/Local.variables",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/readme.txt",
+		"/D/Games/SteamLibrary/steamapps/common/The Witness/logs/log.txt",
+		"/D/Games/SteamLibrary/steamapps/common/The Witness/logs/nvmesh.txt",
+		"/D/Games/SteamLibrary/steamapps/common/The Witness/data/materials/force_field.material",
+		"/D/Games/SteamLibrary/steamapps/common/The Witness/data/grass_avoidance.txt",
+		"/D/Dropbox/De Lamme Vleugel/MotorTestSuite/Debug/wishlist.txt",
+		"/D/SW2015_SP4.0_Full_SSQ/_SolidSQUAD_/readme.txt",
+		"/C/Users/Erwin/AppData/Roaming/SOLIDWORKS/Installation Logs/2015 SP4.0/SummaryIMLog_20150-40400-1100_00001.txt",
+		"/D/SW2015_SP4.0_Full_SSQ/SolidSQUAD.nfo",
+		"//STOETENWOLF/Downloads/Niet gesorteerde shit/dorpshuis marum.txt",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/motion_sensor.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/receiver.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/page.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/pwm_receiver.h",
+		"/D/Dropbox/stuff.backup/text/Bothezat.txt",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/receiver.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/filter.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/pwm_receiver.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/flight_system.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/aux_control.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/aux_control.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/quaternion.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x/variant.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x/variant.cpp",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.4/variants/arduino_due_x/pins_arduino.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/motion_sensor.cpp",
+		"/C/Users/Erwin/Desktop/UnityBuiltInShaders/CGIncludes/UnityStandardCore.cginc",
+		"/C/Users/Erwin/Desktop/UnityBuiltInShaders/CGIncludes/UnityPBSLighting.cginc",
+		"/C/Users/Erwin/Desktop/UnityBuiltInShaders/CGIncludes/UnityStandardBRDF.cginc",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/AwesomeRenderer/Environment.props",
+		"/C/Users/Erwin/AppData/Local/Microsoft/MSBuild/v4.0/Microsoft.Cpp.x64.user.props",
+		"/C/Users/Erwin/AppData/Local/Microsoft/MSBuild/v4.0/Microsoft.Cpp.ARM.user.props",
+		"/C/Users/Erwin/AppData/Local/Microsoft/MSBuild/v4.0/Microsoft.Cpp.Win32.user.props",
+		"/C/Program Files (x86)/Microsoft Visual Studio 14.0/VC/vcprojectitems/PropertySheets/propertysheets.vsdir",
+		"/C/Program Files (x86)/Microsoft Visual Studio 14.0/VC/vcprojectitems/PropertySheets/propertysheets.vsz",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/AwesomeRenderer/AwesomeRenderer.vcxproj",
+		"/D/Dropbox/De Lamme Vleugel/Project-X/X-frames/180MM/Onderdelenlijst.txt",
+		"/C/Program Files/Unity/Editor/Data/Resources/ScriptTemplates/81-C# Script-NewBehaviourScript.cs.txt",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/arduino_serial.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/serial_interface.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/compiler.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/binary_stream.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/bothezat.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/ring_buffer.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/command.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/serial_interface.cpp",
+		"/C/Users/Erwin/Desktop/cleanflight-configurator-master/js/msp.js",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/memory_stream.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.4/platform.txt",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/vector3.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/debug.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/DueFlashStorage/DueFlashStorage.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/DueFlashStorage/flash_efc.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/DueFlashStorage/efc.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/DueFlashStorage/flash_efc.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/libraries/DueFlashStorage/efc.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.4/boards.txt",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/timer.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/base_module.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/cores/arduino/WInterrupts.c",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/cores/arduino/WInterrupts.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/timer.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/debug.h",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Bothezat/module.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/cores/arduino/wiring.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/cores/arduino/wiring_digital.c",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/cores/arduino/wiring_digital.h",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/boards.txt",
+		"/C/Users/Erwin/AppData/Roaming/Arduino15/packages/arduino/hardware/sam/1.6.3/platform.txt",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Toolkit/Toolkit.ino",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/YiXing/YiXing.ino",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/UARTClass.cpp",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Print.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Stream.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/HardwareSerial.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Stream.cpp",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/variants/arduino_due_x/pins_arduino.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Arduino.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/UARTClass.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/variants/arduino_due_x/variant.cpp",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/variants/arduino_due_x/variant.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Client.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/wiring.c",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Tone.cpp.disabled",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/USARTClass.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/RingBuffer.h",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/RingBuffer.cpp",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/sam/platform.txt",
+		"/C/Users/Erwin/Documents/Projecten/TrackAndTrace/TrackerCore/TrackerCoreServer.js",
+		"/C/Users/Erwin/Documents/Projecten/TrackAndTrace/TrackerCore/TrackerEmulator.js",
+		"/C/Users/Erwin/Documents/Projecten/TrackAndTrace/TrackerCore/webClient.js",
+		"/C/Users/Erwin/Desktop/arduino-1.0.5-r2/hardware/arduino/cores/arduino/main.cpp",
+		"/C/Users/Erwin/Documents/Projecten/Arduino/Armband/armband/armband.ino",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/Assets/vertex.glsl",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/Assets/fragment.glsl",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/blend/platform.txt",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/main.cpp",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/blend/boards.txt",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/avr/platform.txt",
+		"/D/Dropbox/SaveGames/World of Warcraft/WTF/Account/117069814#1/SavedVariables/Bartender4.lua",
+		"/C/Users/Erwin/Documents/Projecten/OGLDEV/OGLDEV/Shader.h",
+		"/C/Users/Erwin/Documents/Projecten/OGLDEV/OGLDEV/Shader.cpp",
+		"/C/Users/Erwin/Documents/Projecten/OGLDEV/OGLDEV/Program.h",
+		"/C/Users/Erwin/Documents/Projecten/OGLDEV/OGLDEV/Program.cpp",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/Assets/church.mtl",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/Assets/church.obj",
+		"/C/Users/Erwin/Documents/Projecten/AwesomeRenderer/Assets/car.obj"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Erwin\\Documents\\Projecten\\Arduino\\Bothezat\\,*.h,*.cpp,*.ino",
+			"C:\\Users\\Erwin\\Documents\\Projecten\\Arduino\\Bothezat\\,*.h*.cpp,*.ino",
+			"C:\\Users\\Erwin\\Documents\\Projecten\\Arduino\\Bothezat,*.h*.cpp,*.ino,",
+			"<open folders>,*.h*.cpp,*.ino",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"STABILIZE_INTERVAL",
+			"du",
+			"motors::",
+			"motors",
+			"GetNormalizedChannel",
+			"bb8::",
+			"float",
+			"FLT_MAX",
+			"FLT_MIN",
+			".N",
+			"channelIdx",
+			".",
+			"flightSystemSwitchMode",
+			"r.",
+			"YAW",
+			"AuxControl",
+			".",
+			"armCommand",
+			"registeredcommands",
+			"function",
+			"Function",
+			"function",
+			"Function",
+			"function",
+			"Function",
+			"function",
+			"FUNCTION",
+			"Function",
+			"function",
+			"Function",
+			"function",
+			"Function",
+			"function",
+			"ControlFunction",
+			"AuxControl",
+			"_AUX_CONTROL_H_",
+			"registeredControlFunctions",
+			"controlFunctionIdx",
+			"FlightModeId",
+			"AttitudeMode",
+			"^(.*)$",
+			"^(^[\\S]+)$",
+			"^([^\\S]+)$",
+			"^([^\\s]+)$",
+			"^[^\\s]+$",
+			"^[^\\S]*$",
+			"^[^\\S]+$",
+			"^[.*)$",
+			" ^.*\\S+.*$,",
+			"^(.*)$",
+			"GGXTerm",
+			"unity_LightGammaCorrectionConsts_PIDiv4",
+			"Config::",
+			"resourceBuffer",
+			"Receiver::MAX_CHANNELS",
+			"MAX_CHANNELS",
+			"RC_MAX_CHANNELS",
+			"resource",
+			"size",
+			"MemoryStream",
+			"ReadFloat",
+			"resourceBuffer.writeStream",
+			"trim",
+			"static ",
+			"SyncToStream",
+			"SyncTo",
+			"SyncToStream",
+			"RingBuffer::",
+			"message",
+			"messageBuffer.stream",
+			"writeOffset",
+			"resourceIdx",
+			"WriteByte",
+			"WriteFloat",
+			"<>",
+			"int32_t",
+			" = 0",
+			" = 0;",
+			"messageBuffer.",
+			"message.",
+			"message",
+			"serialPort",
+			"stream",
+			"Stream",
+			"stream",
+			"= 0;",
+			" = 0;",
+			"Read",
+			"bool peek = false",
+			" = 0",
+			"static_cast",
+			"data",
+			"Create",
+			"message.crc",
+			"message.",
+			"magic",
+			"byte",
+			"remainder",
+			"Message(",
+			"SerialInterface::",
+			"stream",
+			"messageBufferStream",
+			"readOffset",
+			"readBuffer",
+			"ReadBuffer",
+			"readBuffer",
+			"ReadBuffer",
+			"readBuffer",
+			"buffer.",
+			"Read",
+			"readBuffer",
+			"readOffset",
+			"writeOffset",
+			"readOffset",
+			"data",
+			"buffer",
+			"const",
+			"bool peek",
+			"asset",
+			"int32_t",
+			"byte",
+			"SerialInterface::",
+			"this.",
+			"int32_t",
+			"Serial.println",
+			"//",
+			"/*",
+			"255"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dataBuffer",
+			"RX_MAX_CHANNELS",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bb8.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "settings.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "BB-8.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1398,
+								1423
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "debug.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "util.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "receiver.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Erwin/Documents/Projecten/Arduino/libraries/SoftwareServo/SoftwareServo.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "motors.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								117
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								252.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "receiver.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pid.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								601
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#ifndef _PID_H_",
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "debug.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Erwin/Documents/Projecten/Arduino/libraries/CPPM/CPPM.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2082,
+								2082
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "motors.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Bothezat":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.stino_log":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "bb-8.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"debug",
+				"debug.cpp"
+			],
+			[
+				"motors",
+				"motors.h"
+			],
+			[
+				"i2",
+				"i2c.h"
+			],
+			[
+				"fligh",
+				"flight_modes.h"
+			],
+			[
+				"config",
+				"config.cpp"
+			],
+			[
+				"util.h",
+				"util.h"
+			],
+			[
+				"motor",
+				"motor_controller.h"
+			],
+			[
+				"motionse",
+				"motion_sensor.h"
+			],
+			[
+				"recei",
+				"receiver.h"
+			],
+			[
+				"aux",
+				"aux_functions.cpp"
+			],
+			[
+				"au",
+				"aux_functions.h"
+			],
+			[
+				"stickcom",
+				"stick_commands.cpp"
+			],
+			[
+				"flightmo",
+				"flight_modes.h"
+			],
+			[
+				"flightsy",
+				"flight_system.cpp"
+			],
+			[
+				"util",
+				"util.h"
+			],
+			[
+				"flight",
+				"flight_system.cpp"
+			],
+			[
+				"con",
+				"aux_control.h"
+			],
+			[
+				"motorcon",
+				"motor_controller.cpp"
+			],
+			[
+				"flights",
+				"flight_system.cpp"
+			],
+			[
+				"config.cpp",
+				"config.cpp"
+			],
+			[
+				"filter",
+				"filter.h"
+			],
+			[
+				"motion",
+				"motion_sensor.cpp"
+			],
+			[
+				"pwm",
+				"pwm_receiver.h"
+			],
+			[
+				"serial",
+				"serial_interface.h"
+			],
+			[
+				"pw",
+				"pwm_receiver.h"
+			],
+			[
+				"page",
+				"page.h"
+			],
+			[
+				"sera",
+				"serial_interface.h"
+			],
+			[
+				"seria",
+				"serial_interface.cpp"
+			],
+			[
+				"vec",
+				"vector3.h"
+			],
+			[
+				"config.",
+				"config.cpp"
+			],
+			[
+				"quat",
+				"quaternion.h"
+			],
+			[
+				"timer",
+				"timer.h"
+			],
+			[
+				"both",
+				"Bothezat.ino"
+			],
+			[
+				"file",
+				"filter.h"
+			],
+			[
+				"receiv",
+				"pwm_receiver.cpp"
+			],
+			[
+				"binary",
+				"binary_stream.h"
+			],
+			[
+				"buff",
+				"ring_buffer.h"
+			],
+			[
+				"motoc",
+				"motor_controller.cpp"
+			],
+			[
+				"debu",
+				"debug.h"
+			],
+			[
+				"bothe",
+				"bothezat.h"
+			],
+			[
+				"module",
+				"module.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Erwin\\Documents\\Projecten\\SoundBoard\\soundboard.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

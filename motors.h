@@ -5,7 +5,9 @@
 
 namespace bb8
 {
-	
+
+namespace actuators
+{
 	struct Motor
 	{
 		uint8_t pinPWM;
@@ -25,10 +27,12 @@ namespace bb8
 	};
 
 	void InitMotors();
-	void UpdateMotors();
+	void UpdateMotors(uint32_t dt);
 	void PrintMotorData();
 
 	void SetDirection(const Vector2& direction);
+	void SetHeadAngle(const float& angle);
+}
 
 }
 
